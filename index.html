@@ -860,92 +860,115 @@
     <!-- /Services Section -->
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    
+<!-- Contact Section -->
+<section id="contact" class="contact section">
 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Kontaktai</h2>
-      </div>
+  <div class="container section-title">
+    <h2>Kontaktai</h2>
+  </div>
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
+  <div class="container">
 
-        <div class="row gy-4">
+    <div class="row gy-4">
 
-          <!-- Contact Information -->
-          <div class="col-lg-4">
+      <!-- Kontaktinė informacija -->
+      <div class="col-lg-4">
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Adresas</h3>
-                <p>Saulėtekio al. 67, Vilnius, Lietuva</p>
-              </div>
-            </div>
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Skambinkite!</h3>
-                <p>+370 123 45 678</p>
-              </div>
-            </div>
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Parašykite!</h3>
-                <p>energetika@gmail.com</p>
-              </div>
-            </div>
-
+        <div class="info-item d-flex">
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
+          <div>
+            <h3>Adresas</h3>
+            <p>Saulėtekio al. 67, Vilnius, Lietuva</p>
           </div>
-          <!-- /Contact Information -->
+        </div>
 
-
-          <!-- Contact Form -->
-          <div class="col-lg-8">
-
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Jūsų vardas" required>
-                </div>
-
-                <div class="col-md-6">
-                  <input type="email" class="form-control" name="email" placeholder="Jūsų el. paštas" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Tema" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Jūsų žinutė" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Kraunama</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Jūsų žinutė buvo išsiųsta. Ačiū!</div>
-
-                  <button type="submit">Siųsti žinutę</button>
-                </div>
-
-              </div>
-
-            </form>
-
+        <div class="info-item d-flex">
+          <i class="bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Skambinkite!</h3>
+            <p>+370 123 45 678</p>
           </div>
-          <!-- /Contact Form -->
+        </div>
 
+        <div class="info-item d-flex">
+          <i class="bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Parašykite!</h3>
+            <p>energetika@gmail.com</p>
+          </div>
         </div>
 
       </div>
+      <!-- /Kontaktinė informacija -->
 
-    </section>
-    <!-- /Contact Section -->
+      <!-- Kontaktų forma -->
+      <div class="col-lg-8">
+
+        <form action="forms/contact.php"
+              method="post"
+              class="php-email-form">
+
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text"
+                     name="name"
+                     class="form-control"
+                     placeholder="Jūsų vardas"
+                     required>
+            </div>
+
+            <div class="col-md-6">
+              <input type="email"
+                     class="form-control"
+                     name="email"
+                     placeholder="Jūsų el. paštas"
+                     required>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text"
+                     class="form-control"
+                     name="subject"
+                     placeholder="Tema"
+                     required>
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control"
+                        name="message"
+                        rows="6"
+                        placeholder="Jūsų žinutė"
+                        required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+
+              <div class="loading">Kraunama</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Jūsų žinutė buvo išsiųsta. Ačiū!
+              </div>
+
+              <button type="submit">Siųsti žinutę</button>
+
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+      <!-- /Kontaktų forma -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Contact Section -->
+
 
   </main>
 
